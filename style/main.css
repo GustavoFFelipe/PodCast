@@ -1,0 +1,115 @@
+:root{
+    --golden:#FFB75D;
+    --black: #141414;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+body{
+    background: var(--black);
+    color: white;
+    width: auto;
+    height: auto;
+}
+
+/* Navbar e header */
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home {
+    color: var(--golden);
+    font-size: 4rem;
+    font-weight: 500;
+    font-family: 'Lobster', sans-serif;
+
+    margin: .5rem 5rem;
+}
+
+header nav{
+    margin: .5rem 5rem;
+}
+
+header nav a {
+    color: #AAA;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+    margin: 0 1rem;
+}
+
+header nav a:hover{
+    transition: .5s;
+    color: var(--golden);
+}
+
+/*Podcast Capa*/
+
+.capa{
+    font-size: 1.6rem;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.10)100%), url('/img/mano.jpeg') no-repeat;
+    background-position: right;
+    max-width: auto;
+    height: 40rem;
+    background-size: contain;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1rem 4rem;
+}
+
+.capa .container .text{
+    font-family: 'Arial', sans-serif;
+    margin: 14rem 4rem 0rem 4rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    width: auto;
+    color:#AAA;
+   /* margin: 40% 0; fixe it */
+}
+.capa .about{
+    margin: 4rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    width: 70rem;
+    color:#AAA;
+
+    
+}
+
+
+.btn {
+   background-color: rgba(0,0,0,.50);
+   border: 1px solid white;
+   color: white;
+   padding: 1.5rem;
+   border-radius: 1rem;
+   margin: 0 1rem 0 5rem;
+   
+
+}
+
+.btn:hover{
+   background-color: rgba(248, 248, 248, 0.4);
+   color: black;
+   transition: .5s;
+   border: 1px solid white;
+   cursor: pointer;
+}
+
+
