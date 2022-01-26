@@ -34,7 +34,7 @@ header .container {
     font-weight: 500;
     font-family: 'Lobster', sans-serif;
 
-    margin: .5rem 5rem;
+    
 }
 
 header nav{
@@ -56,10 +56,15 @@ header nav a:hover{
 }
 
 /*Podcast Capa*/
-
+ .container {
+     margin: 1rem 5rem;
+ }
+ .capa .container{
+    width: 70%;
+ }
 .capa{
     font-size: 1.6rem;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.10)100%), url('/img/mano.jpeg') no-repeat;
+    background: linear-gradient(rgba(0,0,0,.10), rgba(0,0,0,.10)100%), url('/img/mano.jpeg') no-repeat;
     background-position: right;
     max-width: auto;
     height: 40rem;
@@ -69,24 +74,22 @@ header nav a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin: 1rem 4rem;
+     
 }
 
 .capa .container .text{
     font-family: 'Arial', sans-serif;
-    margin: 14rem 4rem 0rem 4rem;
+    margin-top: 14rem;
     font-size: 2.5rem;
     font-weight: bold;
     width: auto;
     color:#AAA;
-   /* margin: 40% 0; fixe it */
 }
 .capa .about{
-    margin: 4rem;
+    margin: 4rem 0rem;
     font-size: 1.5rem;
     font-weight: bold;
     font-family: 'Arial', sans-serif;
-    width: 70rem;
     color:#AAA;
 
     
@@ -96,10 +99,12 @@ header nav a:hover{
 .btn {
    background-color: rgba(0,0,0,.50);
    border: 1px solid white;
-   color: white;
+   color: #AAA;
    padding: 1.5rem;
    border-radius: 1rem;
-   margin: 0 1rem 0 5rem;
+   margin-right:  1rem;
+   
+   font-size: 1.6rem;
    
 
 }
@@ -111,5 +116,65 @@ header nav a:hover{
    border: 1px solid white;
    cursor: pointer;
 }
+i{
+    margin-right: .3rem;
+    color: white;
+}
 
+.carousel{
+    margin-top: 1rem;
+}
+
+.box-podcast {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.destaques-carousel {
+    font-size: 2.5rem;
+    margin: 6rem 0rem 1rem 3rem;
+}
+
+
+footer {
+    height: 7rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+footer .redes-sociais {
+    margin-left: 7rem;
+}
+
+footer i {
+    font-size: 2rem;
+    justify-content: center;
+    display: flex;
+    margin: 1.7rem 1rem;
+    color: #AAA;
+
+}
+footer i:hover {
+    color: var(--golden);
+    transition: .5s;
+}
+
+footer .menu-inferior {
+    font-family: 'Roboto', sans-serif;
+    margin: 1.7rem 2rem 1.7rem 0rem;
+}
+footer .menu-inferior a {
+    color: #AAA;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    
+}
+footer .menu-inferior a:hover{
+    color: var(--golden);
+    transition: .5s;
+}
+footer .copy {
+    margin: 6rem 0rem 1rem 17rem;
+}
 

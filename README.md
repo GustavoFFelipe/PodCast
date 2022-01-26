@@ -15,3 +15,13 @@
 ### Tecnologias utilizadas
 
     Foram apenas utilizados recursos diretos do HTML, CSS e JavaScript. Outros recursos como icones são de origem Font Awesome (https://fontawesome.com/)
+## Fotos do projetos 
+
+<img src='./exemplos/captura.png'>
+
+
+<img src='./exemplos/captura1.png'>
+
+<img src='./exemplos/captura2.png'>
+
+
